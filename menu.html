@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Coffee Website HTML and CSS </title>
+  <link rel="stylesheet" href="style.css">
+
+    <style>
+    /* Imported Font */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+    
+    body {
+        background-color: #563C32;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    
+
+    .menu {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        justify-content: center;
+        margin-top: 30px;
+        width: 70%;
+        text-align: center;
+        margin-top: 120px;
+    }
+    
+    .menu-item {
+        background-color: black;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .menu-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    
+    .menu-item h3 {
+        font-size: 24px;
+        margin: 10px 0;
+    }
+    
+    .menu-item p {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    
+    .menu-item button {
+        font-family: 'Poppins', sans-serif;
+        font-size: 21px;
+        background-color: #BE9280;
+        color: white;
+        border: none;
+        padding: 10px 40px;
+        cursor: pointer;
+        border-radius: 30px;
+    }
+    
+    /* Comments Styles */
+    body {
+        font-family: Arial, sans-serif;
+    }
+    
+    .para {
+        font-size: 15px;
+    }
+    
+    .titl {
+        margin-top: -20px;
+    }
+    
+    .container {
+        text-align: center;
+        padding: 40px;
+        background-image: url('img/6.png');
+        background-size: 100%;
+        width: 100%;
+    }
+    
+    h1 {
+        text-align: center;
+        color: #563C32;
+        font-size: 62px;
+    }
+    
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 120px;
+    }
+    
+    .rectangle {
+        background-color: black;
+        padding: 50px;
+        margin: 20px;
+        text-align: center;
+        width: 250px;
+        height: 350px;
+        border-radius: 40px;
+        border: 0;
+        margin-top: -40px;
+        font-size: 10px;
+    }
+    
+    .rectangle h2 {
+        color: white;
+    }
+    
+    .rectangle img {
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .rectangle p {
+        color: white;
+        margin: 10px 0;
+    }
+    
+    .rectangle p:first-child {
+        margin-top: 0;
+    }
+    
+    .titlex {
+        text-align: center;
+        color: black;
+    }
+</style>    
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <a class="logo" href="#"><img src="img/Coolors__Community_-removebg-preview.png" alt=""></a>
+      <ul class="menu-links">
+        <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="location.html">Location</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+    </nav>
+  </header>
+
+
+  <div class="menu">
+      
+    <div class="menu-item">
+       <img src="img/cof1.png" alt="Cappuccino">
+       <h3>Cappuccino</h3>
+       <p>$4.50</p>
+       <button>Add To Cart</button>
+    </div>
+
+    <div class="menu-item">
+       <img src="img/coff2.png" alt="Mocha">
+       <h3>Mocha</h3>
+       <p>$5.00</p>
+       <button>Add To Cart</button>
+    </div>
+
+    <div class="menu-item">
+       <img src="img/coff3.png" alt="Latte">
+       <h3>Latte</h3>
+       <p>$6.00</p>
+       <button>Add To Cart</button>
+    </div>
+
+    <div class="menu-item">
+       <img src="img/coff4.png" alt="Mocha">
+       <h3>Mocha</h3>
+       <p>$5.00</p>
+       <button>Add To Cart</button>
+    </div>
+
+    <div class="menu-item">
+       <img src="img/coff5.png" alt="Mocha">
+       <h3>Mocha</h3>
+       <p>$5.00</p>
+       <button>Add To Cart</button>
+    </div>
+
+    <div class="menu-item">
+       <img src="img/coff6.png" alt="Mocha">
+       <h3>Mocha</h3>
+       <p>$5.00</p>
+       <button>Add To Cart</button>
+    </div>
+ </div>
+</body>
+
+
+
+
+
+  <!-- comments  -->
+
+
+  <div class="container">
+    <h1>What our Customers</h1>
+
+    <div class="flex-container">
+      <div class="rectangle">
+        <h2 class="titl">As good as
+          advertised</h2>
+        <img src="img/p1.png" alt="Circle Image" />
+        <p class="para">Mrs Catherine White</p>
+        <p>“Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit,”</p>
+      </div>
+
+      <div class="rectangle">
+        <h2 class="titl">As good as
+          advertised</h2>
+        <img src="img/p2.png" alt="Circle Image" />
+        <p class="para">Mrs Catherine White
+        </p>
+        <p>“Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit,”</p>
+      </div>
+
+      <div class="rectangle">
+        <h2 class="titl">As good as
+          advertised</h2>
+        <img src="img/p3.png" alt="Circle Image" />
+        <p class="para">Mrs Catherine White</p>
+        <p>“Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit,”</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- footer -->
+
+  <footer>
+    <div class="background">
+      <div class="contact-group">
+        <ul>
+          <li>CONTACT</li>
+          <li>25 Dockhead, SE1 2BS</li>
+          <li>Tel: 020 7131 3535</li>
+
+        </ul>
+      </div>
+      <div>
+
+        <div class="right-content">
+          <ul>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>MENU</li>
+            <li>PRODUCTS</li>
+            <li>NEWS</li>
+            <li>LOCATION</li>
+          </ul>
+        </div>
+      </div>
+
+      <img src="img/Coolors__Community_-removebg-preview.png" alt="" class="footer-image">
+    </div>
+    </div>
+
+    </div>
+    <div class="fin">
+      <p>© 2023 Bartonsuk Limited. All Rights Reserved.</p>
+
+    </div>
+
+  </footer>
+
+
+
+</body>
+
+</html>
