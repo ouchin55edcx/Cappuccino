@@ -103,7 +103,7 @@ header .navbar {
   margin-top: 38px;
   cursor: pointer;
   font-weight: 500;
-  transition: 0.2s ease;
+  /* transition: 0.2s ease; */
 }
 #close-menu-btn {
   position: absolute;
